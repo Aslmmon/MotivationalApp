@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".QuoteFragment">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="300dp"
+        android:layout_height="210dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:cardBackgroundColor="#cb4d95da"
+        app:cardElevation="5dp" >
+
+        <TextView
+            android:id="@+id/quoteText"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Be Happy"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            />
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/byAuhtor"
+        android:layout_below="@+id/cardview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:textColor="#464444"
+        android:layout_gravity="center"
+        />
+
+</RelativeLayout>
